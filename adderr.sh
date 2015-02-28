@@ -1,6 +1,12 @@
 #!/usr/bin/env zsh
 mypython='/Users/usrNeko/MyPythonErrorSet'
+echo ""
+printf "\e[35mThe following will be pasted. (First 10 lines are only shown)\e[m\n"
+pbpaste | head #Probably Mac Only
+echo ""
+printf "\e[33m$mypython\e[m\n"
 ls $mypython
+echo ""
 echo -n "Which directory? If you create directory, input c:"
 read ans
 time=`date +"%y_%m%d__%H%M%S"`
