@@ -1,0 +1,27 @@
+(python3)➜  Dungeon  pip install mercurial
+Downloading/unpacking mercurial
+  Downloading mercurial-3.3.tar.gz (4.2MB): 4.2MB downloaded
+  Running setup.py (path:/Users/usrNeko/.virtualenvs/python3/build/mercurial/setup.py) egg_info for package mercurial
+    Traceback (most recent call last):
+      File "<string>", line 17, in <module>
+      File "/Users/usrNeko/.virtualenvs/python3/build/mercurial/setup.py", line 409
+        setmode = 0755
+                     ^
+    SyntaxError: invalid token
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+
+  File "<string>", line 17, in <module>
+
+  File "/Users/usrNeko/.virtualenvs/python3/build/mercurial/setup.py", line 409
+
+    setmode = 0755
+
+                 ^
+
+SyntaxError: invalid token
+
+----------------------------------------
+Cleaning up...
+Command python setup.py egg_info failed with error code 1 in /Users/usrNeko/.virtualenvs/python3/build/mercurial
+Storing debug log for failure in /Users/usrNeko/.pip/pip.log
