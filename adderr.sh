@@ -24,3 +24,8 @@ else
 	printf "\e[33m$mypython/$ans\e[m\n"
 	ls $mypython/$ans
 fi
+
+cd $mypython
+git add .
+git commit -m "$time"
+git push
