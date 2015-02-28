@@ -1,13 +1,13 @@
 #!/usr/bin/env zsh
 mypython='/Users/usrNeko/MyPythonErrorSet'
 ls $mypython
-echo -n "Which directory? If you create directory, input c"
+echo -n "Which directory? If you create directory, input c:"
 read ans
 time=`date +"%y_%m%d__%H%M%S"`
 
 if [ $ans = 'c' ]; then
 	#export ans
-	echo -n "Input Directory Name"
+	echo -n "Input Directory Name:"
 	read ans
 	printf "\e[35mCreate directory\e[m\n"
 	mkdir $mypython/$ans

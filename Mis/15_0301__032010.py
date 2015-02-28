@@ -1,1 +1,0 @@
-: aliased to /Applications/Mozart2.app/Contents/Resources/bin/oz
